@@ -1,0 +1,21 @@
+{
+  "name": "leroymuaythai",
+  "version": "1.0.0",
+  "description": "Richard Leroy muay thai and MMA website",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dillon Rooke (DRUX.DEV)",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
