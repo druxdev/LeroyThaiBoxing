@@ -1,37 +1,50 @@
+
 body {
     font-family: 'Metamorphous', cursive;
-    background-color: black;
-    color: white;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'Fahkwang', sans-serif;
+
+   
 }
 
 h1 {
-    font-family: 'Black Ops One', cursive;
+    /*font-family: 'Black Ops One', cursive;*/
+    font-family: 'Metamorphous', cursive;
+    font-family: 'Cabin Sketch', cursive;
+    margin-top: 100px;
+    
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to bottom, rgb(154, 70, 209), black);
-    color: white;
+    
+    background-color: black;
+    color: yellow;
 }
 
 .navbar {
-    background-color: rgb(219, 75, 22);
-
-    font-size: large;
+   /* background-image: linear-gradient(to right, crimson, black, black);*/
+   background-color: red;
 }
 
 .navbar-nav{
     margin: auto;
     color: black;
+    font-size: large;
 }
 
-.nav-item {
+.navbar-nav .nav-item .nav-link {
+    font-size: larger;
     color: black;
+    margin: 0 50px 0 50px;
 }
 
-.nav-link {
-    color: black;
+a:hover {
+    color: crimson;
+    border-bottom: 1px solid yellow;
+    transition: border-bottom 0.3s;
+	padding: 8px 0;
 }
 
 .title {
@@ -40,25 +53,44 @@ h1 {
 
 .site-footer {
     padding: 20px 0;
-    color: black;
-}
-
-.footer-top {
-    background-color: grey;
-    color: black;
-}
-
-.list-unstyled {
-    color: black;
+    background-image: linear-gradient(to bottom, black, red);
+    color: white;
+    
 }
 
 .footer-bottom {
-    background-color: black;
     color: white;
     text-align: center;
 }
 
 
-.lor {
-    margin-top: 100px;
+
+.rowhead {
+    height: 50%;
+    width: auto;
+}
+
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid yellow;
+}
+
+.list-unstyled li a {
+    color: white;
+}
+
+.praythai img{
+   
+    max-width: 300px;
+    height: auto;
 }
