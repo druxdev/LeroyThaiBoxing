@@ -3,7 +3,7 @@ body {
     font-family: 'Metamorphous', cursive;
     font-family: 'IM Fell DW Pica SC', serif;
     font-family: 'Fahkwang', sans-serif;
-
+    background-color: rgb(245, 243, 227);
    
 }
 
@@ -18,31 +18,29 @@ h1 {
 .jumbotron {
     margin: 0;
     padding: 30px;
+    background-color: rgb(233, 245, 181);
     
-    background-color: black;
-    color: yellow;
 }
 
 .navbar {
    /* background-image: linear-gradient(to right, crimson, black, black);*/
-   background-color: red;
+   background-color: rgb(141, 46, 8);
+   color: white;
 }
 
 .navbar-nav{
     margin: auto;
-    color: black;
     font-size: large;
 }
 
 .navbar-nav .nav-item .nav-link {
     font-size: larger;
-    color: black;
+    color: white;
     margin: 0 50px 0 50px;
 }
 
 
 a:hover {
-    color: crimson;
     border-bottom: 1px solid yellow;
     transition: border-bottom 0.3s;
 	padding: 8px 0;
@@ -54,7 +52,7 @@ a:hover {
 
 .site-footer {
     padding: 20px 0;
-    background-image: linear-gradient(to bottom, black, red);
+    background-color: rgb(141, 46, 8);
     color: white;
     
 }
@@ -83,7 +81,7 @@ a:hover {
 }
 
 .carousel {
-    border: solid yellow;
+    border: solid chocolate;
 }
 
 .list-unstyled li a {
@@ -92,6 +90,6 @@ a:hover {
 
 .praythai img{
    
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
 }
