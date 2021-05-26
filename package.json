@@ -1,8 +1,8 @@
 {
   "name": "leroymuaythai",
   "version": "1.0.0",
-  "description": "Richard Leroy muay thai and MMA website",
-  "main": "index.js",
+  "description": "Richard Leroy muay thai and MMA School",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",

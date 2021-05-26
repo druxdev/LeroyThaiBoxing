@@ -1,11 +1,25 @@
 
+
+/*
+header {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('img/groundandpound.jpeg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/groundandpound.jpeg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+*/
+
 body {
     font-family: 'Metamorphous', cursive;
     font-family: 'IM Fell DW Pica SC', serif;
     font-family: 'Fahkwang', sans-serif;
-    background-color: rgb(245, 243, 227);
+    background-color: rgb(255, 244, 179);
+    
    
 }
+
 
 h1 {
     /*font-family: 'Black Ops One', cursive;*/
@@ -15,17 +29,21 @@ h1 {
     
 }
 
+
+/*
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-color: rgb(233, 245, 181);
+    
     
 }
+*/
+
 
 .navbar {
-   /* background-image: linear-gradient(to right, crimson, black, black);*/
-   background-color: rgb(141, 46, 8);
-   color: white;
+  
+   background-color: black;
+   
 }
 
 .navbar-nav{
@@ -41,18 +59,14 @@ h1 {
 
 
 a:hover {
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid rgb(255, 243, 69);
     transition: border-bottom 0.3s;
 	padding: 8px 0;
 }
 
-.title {
-    text-align: center;
-}
-
 .site-footer {
     padding: 20px 0;
-    background-color: rgb(141, 46, 8);
+    background-color: black;
     color: white;
     
 }
@@ -62,13 +76,10 @@ a:hover {
     text-align: center;
 }
 
-
-
 .rowhead {
     height: 50%;
     width: auto;
 }
-
 
 .row-content {
     padding: 50px 0;
@@ -81,15 +92,40 @@ a:hover {
 }
 
 .carousel {
-    border: solid chocolate;
+    border: solid yellow;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    width: 950px;
+    height: 500px;
+    background-color: black;
+}
+
+
+.carousel-item {
+    width: 100%;
+    height: auto;
 }
 
 .list-unstyled li a {
     color: white;
 }
 
+
 .praythai img{
-   
-    max-width: 400px;
+    margin-left: 250px;
+    max-width: 600px;
     height: auto;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.table-container {
+    margin-top: 100px;
 }
