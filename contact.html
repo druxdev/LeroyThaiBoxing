@@ -27,10 +27,10 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <div class="container">
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#leroyNavbar">
                      <span class="navbar-toggler-icon"></span>
                  </button>
-                 <div class="collapse navbar-collapse" data-target="#nucampNavbar">
+                 <div class="collapse navbar-collapse" id="leroyNavbar">
                      <ul class="navbar-nav">
                          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                          <li class="nav-item"><a class="nav-link" href="programs.html"> Programs</a></li>
@@ -44,22 +44,70 @@
     </header>
 
 
+    <div class="container">
 
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4">
+                <h2>Contact</h2>
+                <address>
+                    4685 Industrial St<br />
+                    Simi Valley, CA 93063<br />
+                    U.S.A.
+                </address>
+            </div>
+            <div class="col">
+				<a role="button" class="btn btn-link" href="tel:+18056032072"><i class="fa fa-phone"></i> 1-805-603-2072</a><br>
+            	<a role="button" class="btn btn-link" href="mailto:dick@thaiboxing.com"><i class="fa fa-envelope-o"></i> dick@thaiboxing.com</a>
+            </div>
+        </div>
 
+        <div class="row row-content">
+            
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label> 
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>    
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Phone</label> 
+                        
+                        <div class="col-md-10">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label> 
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2">Your Feedback</label>  
+                        <div class="col-md-10">
+                            <textarea id="feedback" class="form-control" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+       </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="site-footer fixed-bottom">
+    <footer class="site-footer">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
