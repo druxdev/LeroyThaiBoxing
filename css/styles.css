@@ -97,7 +97,7 @@ h1 {
 
 
 .carousel-item {
-    width: 100%;
+    width: 75%;
     height: auto;
 }
 
@@ -124,4 +124,10 @@ h1 {
 .rich-punch img{
     max-width: 60%;
     height: fit-content;
+}
+
+#champ {
+    max-width: 90%;
+    margin-top: 50px;
+    filter: grayscale(100%);
 }
