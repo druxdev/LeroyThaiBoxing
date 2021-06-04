@@ -16,11 +16,11 @@ h1 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-color: rgb(229, 240, 130);
+    background-color: rgb(228, 230, 212);
 }
 
 .navbar {
-   background-image: linear-gradient(to bottom, grey, black, black);
+   background-image: linear-gradient(to bottom, grey, black, black, grey);
 }
 
 .navbar-nav{
@@ -91,9 +91,9 @@ h1 {
     color: white;
 }
 
-.praythai img{
-    max-width: 100%;
-    height: auto;
+.praythai img {
+    max-width: 45%;
+    
 }
 
 #carouselButton {
@@ -166,4 +166,16 @@ h1 {
 	opacity: 1;
 	-webkit-transform: scale(1.03);
 	        transform: scale(1.03);
+}
+
+#sleeper-rich {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 3em;
+}
+
+#mma-crew {
+    max-width: 90%;
+    height: auto;
+    margin-top: 3em;
 }
