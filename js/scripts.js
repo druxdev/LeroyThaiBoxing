@@ -12,3 +12,7 @@ $(function() {
         }
     });
 });
+
+function suckIt() {
+    alert("LEROY is a HOMO 8====D-- d:");
+}
