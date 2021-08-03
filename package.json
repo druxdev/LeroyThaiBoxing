@@ -9,12 +9,12 @@
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
-    "scss": "node-sass -o css/ css/",
-    "start": "npm run watch:all",
+    
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin programs.html -d dist --htmlmin -o dist/programs.html && usemin schedule.html -d dist --htmlmin -o dist/schedule.html",
-    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
-    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin programs.html -d dist --htmlmin -o dist/programs.html && usemin schedule.html -d dist --htmlmin -o dist/schedule.html"
+    
+    
   },
   "author": "Dillon Rooke (DRUX.DEV)",
   "license": "ISC",
